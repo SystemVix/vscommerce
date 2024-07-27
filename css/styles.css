@@ -42,11 +42,6 @@ nav
    margin: 0 auto;   
 }
 
-#product-details
-{
-   padding: 20px 0;
-}
-
 .card
 {
    border: 1px solid #686c00;
@@ -54,61 +49,9 @@ nav
    background-color: whitesmoke;
 }
 
-.card-top
-{   
+.line-bottom
+{
    border-bottom: 1px solid #686c00;
-   padding: 10px;
-   display: flex;
-   justify-content: center;
-}
-
-.card-top img
-{
-   width: 220px;
-}
-
-.card-bottom
-{
-   padding: 10px 20px 20px 20px;
-}
-
-.card-bottom h3
-{
-   color: #686c00;
-   font-size: 20px;
-}
-
-.card-bottom h4
-{
-   color: #636363;
-   font-size: 16px;
-}
-
-.card-bottom p
-{
-   color: #636363;
-   font-size: 12px;
-   margin: 10px 0;
-}
-
-.category
-{
-   padding: 0 20px;
-   margin-right: 20px;
-   color: white;
-   font-size: 12px;
-   font-weight: 700;
-   background-color: #636363;
-   border-radius: 4px;
-   height: 30px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-.category-container
-{
-   display: flex;
 }
 
 .btn
