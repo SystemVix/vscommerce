@@ -1,53 +1,53 @@
 @import url("styles.css");
 
-#cart-container
+#cart-container-section
 {
    padding: 20px 0;
 }
 
-.cart-total-container
+.vsc-cart-total-container
 {
    padding: 0 20px 10px 20px;
    font-size: 20px;
 }
 
-.cart-total-container h3
+.vsc-cart-total-container h3
 {
    color: var(--cor-fonte-secundaria);
    font-size: 16px;
    text-align: right;
 }
 
-.cart-item-container
+.vsc-cart-item-container
 {
    padding: 0 20px;
    display: flex;
    justify-content: space-between;
 }
 
-.cart-item-container img
+.vsc-cart-item-container img
 {
    width: 78px;
 }
 
-.cart-item-left
+.vsc-cart-item-left
 {
    display: flex;
 }
 
-.cart-item-quantity-container
+.vsc-cart-item-quantity-container
 {
    font-size: 16px;
    font-weight: 700;
    display: flex;
 }
 
-.cart-item-quantity-container p
+.vsc-cart-item-quantity-container p
 {
    margin: 0 5px;   
 }
 
-.cart-item-right
+.vsc-cart-item-right
 {
    padding: 10px 0;
    color: var(--cor-fonte-secundaria);
@@ -55,18 +55,18 @@
    font-weight: 700;
 }
 
-.cart-item-description
+.vsc-cart-item-description
 {
    padding: 10px 10px;
    color: var(--cor-fonte-primaria);
 }
 
-.cart-item-description h3
+.vsc-cart-item-description h3
 {   
    font-size: 14px;
 }
 
-.sinal-quantidade
+.vsc-sinal-quantidade
 {
    color: var(--cor-fonte-secundaria);
    cursor: pointer;

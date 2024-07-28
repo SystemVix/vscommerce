@@ -51,26 +51,26 @@ nav
    align-items: center;
 }
 
-.container
+.vsc-container
 {
    width: 100%;
    max-width: 960px;
    margin: 0 auto;   
 }
 
-.card
+.vsc-card
 {
    border: 1px solid var(--cor-borda-card);
    border-radius: 4px;
    background-color: var(--cor-fundo-card);
 }
 
-.line-bottom
+.vsc-line-bottom
 {
    border-bottom: 1px solid var(--cor-borda-card);
 }
 
-.btn
+.vsc-btn
 {
    border-radius: 4px;
    height: 42px;
@@ -81,27 +81,27 @@ nav
    align-items: center;   
 }
 
-.btn-color
+.vsc-btn-color
 {
    background-color: var(--cor-fundo-botao-colorido);
    color: var(--cor-fonte-terciaria);   
 }
 
-.btn-white
+.vsc-btn-white
 {
    background-color: var( --cor-fundo-botao-branco);
    color: var(--vsc-color-font-secondary);
    border: 1px solid var(--cor-borda-card);
 }
 
-.btn-page-container
+.vsc-btn-page-container
 {
    width: 220px;
    display: grid;
    grid-gap: 20px;
 }
 
-.mb20
+.vsc-mb20
 {
    margin-bottom: 20px;
 }
