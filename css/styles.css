@@ -36,6 +36,21 @@ html, body
    background-color: var(--cor-fundo-primaria);   
 }
 
+/* GENÉRICOS -------------------------------- */
+.vsc-container
+{
+   width: 100%;
+   max-width: 960px;
+   margin: 0 auto;   
+}
+
+.vsc-mb20
+{
+   margin-bottom: 20px;
+}
+/* GENÉRICOS - FIM -------------------------- */
+
+/* HEADER ----------------------------------- */
 header
 {
    background-color: var(--cor-fundo-secundaria);
@@ -51,13 +66,19 @@ nav
    align-items: center;
 }
 
-.vsc-container
+nav h1
 {
-   width: 100%;
-   max-width: 960px;
-   margin: 0 auto;   
+   font-size: 24px;   
 }
 
+nav a
+{
+   font-size: 16px;
+   font-weight: 700;
+}
+/* HEADER - FIM ----------------------------- */
+
+/* CARD ------------------------------------- */
 .vsc-card
 {
    border: 1px solid var(--cor-borda-card);
@@ -69,7 +90,9 @@ nav
 {
    border-bottom: 1px solid var(--cor-borda-card);
 }
+/* CARD - FIM ------------------------------- */
 
+/* BOTÕES ----------------------------------- */
 .vsc-btn
 {
    border-radius: 4px;
@@ -100,8 +123,4 @@ nav
    display: grid;
    grid-gap: 20px;
 }
-
-.vsc-mb20
-{
-   margin-bottom: 20px;
-}
+/* BOTÕES - FIM ----------------------------- */
