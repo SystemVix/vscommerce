@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>VSCommerce</title>   
+   <link rel="stylesheet" href="css/product-form.css">
+</head>
+
+<body>
+   <header>
+      <nav class="vsc-container">
+         <h1>VS-Commerce</h1>
+         <div class="vsc-logged-user">
+            <p>Maria Silva</p>
+            <a href="#">Sair</a>
+         </div>
+      </nav>
+   </header>
+   <main>
+      <section id="product-form-section" class="vsc-container">
+         <div class="vsc-product-form-container">
+            <form class="vsc-card vsc-form">
+               <h2>Dados do Produto</h2>
+               <div class="vsc-form-controls-container">
+                  <div>
+                     <input class="vsc-form-control" type="text" placeholder="Nome">                     
+                  </div>
+                  <div>
+                     <input class="vsc-form-control" type="text" placeholder="Preço">
+                  </div>
+                  <div>
+                     <input class="vsc-form-control" type="text" placeholder="Imagem">
+                  </div>
+                  <div>
+                     <select class="vsc-form-control vsc-select" required>
+                        <option value="" disabled selected>Categorias</option>
+                        <option value="1">Valor 1</option>
+                        <option value="2">Valor 2</option>
+                     </select>
+                  </div>
+                  <div>
+                     <textarea class="vsc-form-control vsc-textarea" placeholder="Descrição"></textarea>
+                  </div>                  
+               </div>               
+               <div class="vsc-product-form-buttons">
+                  <button type="reset" class="vsc-btn vsc-btn-white">Cancelar</button>
+                  <button type="submit" class="vsc-btn vsc-btn-color">Salvar</button>
+               </div>
+            </form>
+         </div>
+         
+      </section>
+   </main>
+</body>
+
+</html>

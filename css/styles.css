@@ -231,6 +231,11 @@ nav a
    width: 100%;
 }
 
+.vsc-form-control::placeholder
+{
+   color: var(--cor-fonte-primaria);
+}
+
 .vsc-form-control:focus
 {
    outline: none;
@@ -254,6 +259,34 @@ nav a
 .vsc-input-error
 {
    border: 1px solid var(--cor-fonte-erros);
+}
+
+.vsc-select
+{
+   background-color: var(--cor-fundo-card);
+}
+
+.vsc-select:invalid
+{
+   color: var(--cor-fonte-primaria);
+}
+
+.vsc-select option[disabled]
+{
+   display: none;   
+}
+
+.vsc-select option
+{
+   color: var(--cor-fonte-primaria);
+}
+
+.vsc-textarea
+{
+   height: 128px;
+   padding-top: 10px;
+   resize: none;
+
 }
 /* FORMULÁRIOS - FIM ------------------------ */
 
