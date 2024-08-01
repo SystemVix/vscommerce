@@ -128,7 +128,7 @@ nav a
 .vsc-btn-white
 {
    background-color: var( --cor-fundo-botao-branco);
-   color: var(--vsc-color-font-secondary);
+   color: var(--cor-fonte-secundaria);
    border: 1px solid var(--cor-borda-card);
 }
 
@@ -255,7 +255,6 @@ nav a
 {
    border: 1px solid var(--cor-fonte-erros);
 }
-
 /* FORMULÁRIOS - FIM ------------------------ */
 
 @media (min-width: 576px)
