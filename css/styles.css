@@ -60,6 +60,14 @@ main
 {
    margin-top: 20px;
 }
+
+.vsc-section-title
+{
+   color: var(--cor-fonte-primaria);
+   font-size: 16px;
+   font-weight: 700;
+   text-align: center;
+}
 /* GENÉRICOS - FIM -------------------------- */
 
 /* HEADER ----------------------------------- */
@@ -290,6 +298,70 @@ nav a
 }
 /* FORMULÁRIOS - FIM ------------------------ */
 
+/* TABELAS ---------------------------------- */
+.vsc-table
+{
+   border-collapse: collapse;
+   border-spacing: 0;
+   width: 100%;
+}
+
+.vsc-table tbody
+{
+   background-color: white;
+   color: var(--cor-fonte-primaria);
+   font-size: 12px;
+}
+
+.vsc-table tbody tr
+{
+   border-top: 1px solid var(--cor-borda-card);
+}
+
+.vsc-table td:first-child
+{
+   padding-left: 10px;
+}
+
+.vsc-table th:nth-child(2)
+{
+   border-top-left-radius: 4px;   
+}
+
+.vsc-table th:last-child
+{
+   border-top-right-radius: 4px;
+}
+
+.vsc-table th:first-child
+{
+   padding-left: 10px;
+}
+
+.vsc-table thead
+{
+   background-color: var(--cor-fundo-card);
+   color: var(--cor-fonte-primaria);
+   font-size: 16px;
+   height: 55px;
+}
+
+.vsc-table thead th
+{
+   text-align: left;
+}
+
+.vsc-tb576
+{
+   display: none;
+}
+
+.vsc-tb768
+{
+   display: none;
+}
+/* TABELAS - FIM ---------------------------- */
+
 @media (min-width: 576px)
 {
    .vsc-btn-page-container
@@ -300,5 +372,43 @@ nav a
    .vsc-form h2
    {
       font-size: 24px;
-   } 
+   }
+
+   .vsc-section-title
+   {
+      font-size: 24px;
+      font-weight: 700;
+      text-align: left;
+   }
+
+   .vsc-table th:nth-child(1)
+   {
+      border-top-left-radius: 4px;   
+   }
+   
+   .vsc-table th:nth-child(2)
+   {
+      border-top-left-radius: 0;   
+   }
+
+   .vsc-tb576
+   {
+      display: table-cell;
+   }   
+}
+
+@media (min-width: 768px)
+{
+   .vsc-tb768
+   {
+      display: table-cell;
+   }
+}
+
+@media (min-width: 992px)
+{
+   .vsc-table tbody
+   {
+      font-size: 16px;
+   }
 }
